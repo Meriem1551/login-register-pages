@@ -1,0 +1,187 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+/*landing page*/
+body{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    background-color:rgb(241, 239, 239);
+}
+main{
+    color: rgb(8, 8, 67);
+    display: grid;
+    justify-items: center;
+}
+main>h1{
+    font-size: 4rem;
+    margin-top: 50px;
+    z-index: 100;
+}
+main>p{
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative;
+    top: 350px;
+    z-index: 100;
+}
+main>img{
+    margin-top: -100px;
+    z-index: 0;
+}
+footer {
+    background-color: rgb(61, 4, 61);
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+/*login page*/
+a{
+    text-decoration: none;
+    color: rgb(254, 221, 254);
+}
+a:hover{
+    color: rgb(61, 4, 61);
+}
+header>nav{
+    background-color:rgb(61, 4, 61) ;
+    padding: 1.5rem;
+    height: 70px;
+}
+header>nav>ul{
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 100px;
+    align-items: center;
+    justify-items: center;
+    list-style: none;
+}
+#login{
+    grid-column: 3/4;
+}
+form {
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width: 500px;
+    height: 300px;
+    background-color:   rgb(254, 221, 254);
+    border: solid 1.5px rgb(62, 11, 62);
+    border-top-left-radius: 10px;
+    border-top-right-radius:35px ;
+    border-bottom-left-radius:35px ;
+    border-bottom-right-radius: 10px;
+    margin-top: 100px;
+    margin-left: -20px;
+}
+
+form > div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+form > label {
+    display: block;
+}
+
+form > input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    height: 40px;
+    margin-top: -10px;
+}
+
+form > input:focus {
+    outline: none;
+    border-color: #2d033c;
+}
+.loginImage img{
+    width: 1263px;
+    margin-top: -400px;
+    z-index: 0;
+}
+.text p{
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    top: -700px;
+    left: -500px;
+}
+/*register page*/
+#register{
+    height: 400px;
+    position: relative;
+    top: -40px;
+}
+#purpleImage{
+    width: 1263px;
+    margin-top: -500px;
+}
+/*registration Done page*/
+#body{
+    background-color: rgb(250, 253, 251);
+}
+#body>main>h1{
+    color: rgb(248, 132, 132);
+    position: relative;
+    top: 10px;
+}
+#registrationDone{
+    border: none;
+    background-color: transparent;
+}
+#returnButtoN{
+    border-radius: 15px;
+    background-color: rgb(248, 132, 132);
+    color: rgb(253, 247, 253);
+    margin-top: 20px;
+}
+/*error page*/
+#Body{
+    background-color: rgb(251, 251, 251);
+}
+.page404 {
+    background-color: rgb(253, 249, 249);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.page404 > img {
+    width: 100%;
+}
+.page404>h1{
+    color: red;
+}
+.page404>p{
+    color: red;
+}
+.page404>form{
+    border: none;
+    background-color: transparent;
+}
+.page404>form>input{
+    border-radius: 15px;
+    background-color: rgb(245, 13, 13);
+    color: rgb(253, 247, 253);
+    margin-top: -100px;
+}
+
+/*login and register*/
+#Button{
+    border-radius: 15px;
+    background-color: rgb(57, 10, 57);
+    color: rgb(248, 215, 248)
+}
+
+
